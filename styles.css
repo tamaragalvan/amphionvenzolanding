@@ -2080,6 +2080,12 @@ body {
 }
 
 @media (max-width: 768px) {
+  :root {
+    /* En mobile, --page-padding-x quedaba en 0px (max(0px, 2rem - 1cm) siempre es negativo),
+       dejando textos e imágenes pegados a los bordes de la pantalla. Le damos un margen fijo. */
+    --page-padding-x: 1.5rem;
+  }
+
   .main-nav {
     display: none; /* Ocultar menú en móviles por defecto */
   }
@@ -2184,7 +2190,7 @@ body {
   .landscape-section {
     height: 60vh;
     min-height: 400px;
-    padding: 4rem max(0px, calc(6% - 1cm)) 10rem max(0px, calc(6% - 1cm));
+    padding: 4rem 1.5rem 10rem 1.5rem;
   }
 }
 
