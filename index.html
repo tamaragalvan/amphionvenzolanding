@@ -1,0 +1,539 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bicicleta Amphion: Diseñada para avanzar. Descubrí el rendimiento, la tecnología y el confort de la nueva MTB de Venzo en rodado 29.">
+  <title>Bicicleta Amphion — Diseñada para avanzar</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Efectos de brillo de fondo Aurora -->
+  <div class="aurora-bg"></div>
+
+  <!-- Header / Navbar -->
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#" class="logo-container" aria-label="Volver al inicio">
+        <img src="assets/logovenzoblanco.png" alt="Venzo Racing Division Logo" class="logo-img">
+      </a>
+      
+      <nav class="main-nav">
+        <a href="#inicio" class="nav-item">Inicio</a>
+        <a href="#caracteristicas" class="nav-item">Características</a>
+        <a href="#tecnologia" class="nav-item">Tecnología</a>
+        <a href="#personalizar" class="nav-item">Personalizar</a>
+      </nav>
+      
+      <button class="menu-toggle" aria-label="Abrir menú de navegación">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Sección 1: Hero -->
+  <section id="inicio" class="hero-section">
+    <div class="hero-background-glow"></div>
+    <div class="hero-container">
+      <div class="hero-left reveal">
+        <h1 class="hero-title">Diseñada<br>para avanzar.</h1>
+        <p class="hero-description">
+          La nueva Amphion combina rendimiento, tecnología y confort<br>para acompañarte en cada kilómetro.
+        </p>
+        <div class="hero-actions">
+          <a href="#detalle" class="btn-cta">Conocé más</a>
+        </div>
+      </div>
+      <div class="hero-right reveal-scale">
+        <div class="hero-bike-wrapper">
+          <img src="assets/hero-bike-new.png" alt="Bicicleta Venzo Amphion" class="hero-bike-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 5: Tarjetas de Características -->
+  <section id="caracteristicas" class="features-section" style="position: relative;">
+
+    <div class="features-grid">
+      
+      <!-- Card 1: Rendimiento Eficiente -->
+      <div class="feature-card reveal" style="transition-delay: 0.1s;">
+        <div class="feature-icon-container">
+          <img src="assets/icon-lightning.png" alt="Ícono de rayo" class="feature-icon">
+        </div>
+        <h3 class="feature-title">Rendimiento eficiente</h3>
+        <p class="feature-desc">Respuesta ágil para cada desafío.</p>
+      </div>
+
+      <!-- Card 2: Estructura Liviana -->
+      <div class="feature-card reveal" style="transition-delay: 0.2s;">
+        <div class="feature-icon-container">
+          <img src="assets/icon-feather.png" alt="Ícono de pluma" class="feature-icon">
+        </div>
+        <h3 class="feature-title">Estructura liviana</h3>
+        <p class="feature-desc">Mayor agilidad para desplazarte con facilidad.</p>
+      </div>
+
+      <!-- Card 3: Seguridad y Control -->
+      <div class="feature-card reveal" style="transition-delay: 0.3s;">
+        <div class="feature-icon-container">
+          <img src="assets/icon-shield.png" alt="Ícono de escudo" class="feature-icon">
+        </div>
+        <h3 class="feature-title">Seguridad y control</h3>
+        <p class="feature-desc">Estabilidad y confianza en todo momento.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Sección: Introducción Tipográfica (Entre Iconos y Métricas) -->
+  <section id="introduccion" class="intro-section">
+    <div class="intro-container">
+      <div class="intro-left reveal">
+        <span class="intro-overtitle">INGENIERÍA VENZO</span>
+        <h2 class="intro-title-large">AMPHION</h2>
+      </div>
+      
+      <div class="intro-right reveal">
+        <p class="intro-description">
+          Una MTB diseñada para quienes buscan dar el salto de nivel. Con componentes de <strong>alto rendimiento</strong> y una configuración preparada para la aventura, la Venzo Amphion es la compañera ideal para conquistar <strong>terrenos exigentes</strong> con confianza.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 2: About / Detalle (Editorial Storytelling 70/30) -->
+  <section id="detalle" class="about-section">
+    <div class="editorial-container">
+      <div class="editorial-grid focus-featured">
+
+        <!-- Tarjeta Izquierda (70%) - Destacada por defecto -->
+        <div class="editorial-card featured active" id="card-featured" data-card="featured">
+          <div class="card-media" style="background-image: url('assets/editorial-escape-rutina.png');"></div>
+          <div class="card-scrim"></div>
+          <div class="card-content">
+            <span class="card-eyebrow">EXPERIENCIA AMPHION</span>
+            <h3 class="card-heading">ESCAPÁ DE LA RUTINA</h3>
+            <div class="card-divider"></div>
+            <p class="card-desc">Cada recorrido es una oportunidad para dejar atrás lo cotidiano. La Amphion te acompaña desde las calles de la ciudad hasta senderos donde comienza la verdadera aventura.</p>
+          </div>
+        </div>
+
+        <!-- Columna Derecha (30%) con dos tarjetas apiladas -->
+        <div class="editorial-column-right">
+
+          <!-- Tarjeta 1: Escapada de fin de semana -->
+          <div class="editorial-card stacked" id="card-drivetrain" data-card="drivetrain">
+            <div class="card-media" style="background-image: url('assets/editorial-explora-limites.png');"></div>
+            <div class="card-scrim"></div>
+            <div class="card-content">
+              <span class="card-eyebrow">NUEVOS HORIZONTES</span>
+              <h3 class="card-heading">EXPLORÁ SIN LÍMITES</h3>
+              <div class="card-divider"></div>
+              <p class="card-desc">Descubrí nuevos caminos, enfrentá terrenos diferentes y viví el ciclismo de montaña con la confianza de una bicicleta preparada para ir más lejos.</p>
+            </div>
+          </div>
+
+          <!-- Tarjeta 2: Uso diario -->
+          <div class="editorial-card stacked" id="card-structure" data-card="structure">
+            <div class="card-media" style="background-image: url('assets/editorial-propio-camino.png');"></div>
+            <div class="card-scrim"></div>
+            <div class="card-content">
+              <span class="card-eyebrow">CADA MOMENTO CUENTA</span>
+              <h3 class="card-heading">SEGUÍ TU PROPIO CAMINO</h3>
+              <div class="card-divider"></div>
+              <p class="card-desc">No importa el destino. Cada salida es una invitación a descubrir paisajes, superar desafíos y disfrutar el recorrido.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 3: Métricas Destacadas -->
+  <section id="metricas" class="metrics-section">
+    <div class="metrics-header reveal">
+      <h2 class="metrics-title">Rendimiento bajo control</h2>
+      <p class="metrics-subtitle">Especificaciones de ingeniería calibradas para el máximo rendimiento en competición.</p>
+    </div>
+    <div class="metrics-grid reveal">
+      <div class="metric-item">
+        <span class="metric-value counter-value" data-target="29" data-suffix="&quot;">29<span class="metric-suffix metric-suffix--full-size">&quot;</span></span>
+        <span class="metric-label">Rodado XC</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-value counter-value" data-target="6061">6061</span>
+        <span class="metric-label">Cuadro de Aluminio</span>
+      </div>
+      <div class="metric-item">
+        <span class="metric-value counter-value" data-target="160" data-suffix="mm">160<span class="metric-suffix">mm</span></span>
+        <span class="metric-label">Frenos a Disco</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 6: Diagrama Interactivo de Hotspots -->
+  <section id="tecnologia" class="tech-diagram-section" style="position: relative;">
+    <!-- Curva de luz neón decorativa en Tecnología (Integrada más abajo) -->
+    <div class="neon-curve-container curve-tech">
+      <svg class="neon-curve-svg" viewBox="0 0 1440 200" xmlns="http://www.w3.org/2000/svg">
+        <path class="neon-path" d="M -50 150 C 360 20, 1080 200, 1490 80" />
+      </svg>
+    </div>
+    <div class="diagram-header reveal">
+      <h2 class="diagram-title">Tecnología que marca la diferencia</h2>
+    </div>
+    
+    <div class="diagram-wrapper reveal-scale">
+      <div class="diagram-backlight"></div>
+      
+      <img src="assets/tech-bike.png" alt="Venzo Amphion Características Técnicas" class="diagram-bike-img">
+      
+      <!-- Hotspots e Indicadores Pulsantes -->
+      <div class="diagram-hotspot" id="dot-saddle" data-target="badge-saddle" style="left: 41.1%; top: 16.9%;"></div>
+      <div class="diagram-pointer-line" style="left: 22%; top: 16.9%; width: 19.1%;"></div>
+
+      <div class="diagram-hotspot" id="dot-wheel" data-target="badge-wheel" style="left: 31%; top: 59.8%;"></div>
+      <div class="diagram-pointer-line" style="left: 22%; top: 59.8%; width: 9%;"></div>
+
+      <div class="diagram-hotspot" id="dot-gear" data-target="badge-gear" style="left: 59.3%; top: 14.7%;"></div>
+      <div class="diagram-pointer-line right-direction" style="right: 22%; top: 14.7%; width: 18.7%;"></div>
+
+      <div class="diagram-hotspot" id="dot-brake" data-target="badge-brake" style="left: 65.6%; top: 77.3%;"></div>
+      <div class="diagram-pointer-line right-direction" style="right: 22%; top: 77.3%; width: 12.4%;"></div>
+
+      <!-- Tarjetas de Información Flotantes (Badges) -->
+      
+      <!-- Badge 1: Asiento (Arriba Izquierda) -->
+      <div class="diagram-callout" id="badge-saddle" data-target="dot-saddle" style="left: 0; top: 12.9%;">
+        <div class="diagram-callout-header">
+          <h4 class="diagram-callout-title">Asiento ergonómico</h4>
+          <span class="diagram-callout-toggle-icon">▼</span>
+        </div>
+        <div class="diagram-callout-body">
+          <p>Diseñado para mejorar la comodidad y reducir la fatiga durante recorridos prolongados.</p>
+        </div>
+      </div>
+      
+      <!-- Badge 2: Rueda (Abajo Izquierda) -->
+      <div class="diagram-callout" id="badge-wheel" data-target="dot-wheel" style="left: 0; top: 56.3%;">
+        <div class="diagram-callout-header">
+          <h4 class="diagram-callout-title">LLANTAS VENZO SKYWALKER</h4>
+          <span class="diagram-callout-toggle-icon">▼</span>
+        </div>
+        <div class="diagram-callout-body">
+          <p>Fabricadas en aluminio de doble pared, ofrecen una estructura más resistente y ligera, preparada para soportar el uso intensivo en caminos y senderos.</p>
+        </div>
+      </div>
+      
+      <!-- Badge 3: Transmisión (Arriba Derecha) -->
+      <div class="diagram-callout" id="badge-gear" data-target="dot-gear" style="right: 0; top: 10.7%;">
+        <div class="diagram-callout-header">
+          <h4 class="diagram-callout-title">MANUBRIO COCKPIT INTEGRADO</h4>
+          <span class="diagram-callout-toggle-icon">▼</span>
+        </div>
+        <div class="diagram-callout-body">
+          <p>Diseñado para ofrecer una posición de manejo cómoda y un control preciso en recorridos urbanos y senderos.</p>
+        </div>
+      </div>
+      
+      <!-- Badge 4: Frenos (Abajo Derecha) -->
+      <div class="diagram-callout" id="badge-brake" data-target="dot-brake" style="right: 0; top: 73.8%;">
+        <div class="diagram-callout-header">
+          <h4 class="diagram-callout-title">CUBIERTAS MAXXIS</h4>
+          <span class="diagram-callout-toggle-icon">▼</span>
+        </div>
+        <div class="diagram-callout-body">
+          <p>Su dibujo optimizado proporciona un excelente equilibrio entre velocidad, tracción y control para afrontar distintos tipos de terreno con confianza.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Contenedor adaptativo móvil para hotspots (se renderiza abajo solo en móviles) -->
+    <div class="diagram-callouts-mobile-container lg:hidden">
+      <!-- Se clona o controla por JS el comportamiento -->
+    </div>
+  </section>
+
+  <!-- Nueva Sección: Transmisión Shimano -->
+  <section id="transmission" class="pressure-section reveal">
+    <div class="pressure-container">
+      <div class="pressure-card">
+        
+        <!-- Columna Izquierda: Imagen de la Transmisión -->
+        <div class="pressure-image-container">
+          <img src="assets/transmission.png" alt="Transmisión Shimano" class="pressure-img">
+        </div>
+        
+        <!-- Columna Derecha: Características -->
+        <div class="pressure-content">
+          <h2 class="pressure-title">Transmisión Shimano</h2>
+          <span class="pressure-subtitle">27 velocidades precisas en cada recorrido</span>
+          <span style="display: block; font-size: 1.1rem; font-weight: 600; color: #ffffff; margin-bottom: 1.2rem;">¿Por qué es importante?</span>
+          
+          <ul class="pressure-list">
+            <li class="pressure-item">
+              <span class="pressure-icon">&#10003;</span>
+              <div class="pressure-text">
+                <strong>Cambios suaves y rápidos</strong>
+                <p>Permite cambiar de marcha con precisión para mantener el ritmo en cualquier terreno.</p>
+              </div>
+            </li>
+            <li class="pressure-item">
+              <span class="pressure-icon">&#10003;</span>
+              <div class="pressure-text">
+                <strong>Mayor eficiencia al pedalear</strong>
+                <p>Aprovechá mejor cada pedaleo, tanto en subidas exigentes como en recorridos urbanos.</p>
+              </div>
+            </li>
+            <li class="pressure-item">
+              <span class="pressure-icon">&#10003;</span>
+              <div class="pressure-text">
+                <strong>Confiabilidad Shimano</strong>
+                <p>Componentes reconocidos por su durabilidad y rendimiento en todo tipo de condiciones.</p>
+              </div>
+            </li>
+          </ul>
+          
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- Sección 7: Carrusel de Personalización -->
+  <section id="personalizar" class="carousel-section">
+    <h2 class="carousel-section-title reveal">Personalizá tu aventura</h2>
+    
+    <div class="carousel-wrapper reveal-scale">
+      <button class="carousel-btn" id="carousel-btn-prev" aria-label="Slide anterior">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" /></svg>
+      </button>
+      
+      <div class="carousel-track-container">
+        <div class="carousel-track">
+          
+          <!-- Slide 1: Puños Ergonómicos -->
+          <div class="carousel-slide active">
+            <div class="carousel-slide-image-container">
+              <div class="carousel-slide-bg-glow"></div>
+              <img src="assets/carousel-grips.png" alt="Puños Premium Venzo" class="carousel-slide-img">
+            </div>
+            <h3 class="carousel-slide-title">Puños Premium</h3>
+            <span class="carousel-slide-subtitle">Mejor agarre</span>
+            <p class="carousel-slide-desc">Puños de alta densidad con tecnología antideslizante y anillos de fijación anodizados para un control total.</p>
+          </div>
+          
+          <!-- Slide 2: Asiento -->
+          <div class="carousel-slide">
+            <div class="carousel-slide-image-container">
+              <div class="carousel-slide-bg-glow"></div>
+              <img src="assets/carousel-saddle.png" alt="Asiento Quilted de Cuero" class="carousel-slide-img">
+            </div>
+            <h3 class="carousel-slide-title">Asiento</h3>
+            <span class="carousel-slide-subtitle">Más comodidad</span>
+            <p class="carousel-slide-desc">Disfrutá de recorridos más largos con una ergonomía pensada para vos.</p>
+          </div>
+          
+          <!-- Slide 3: Pedal -->
+          <div class="carousel-slide">
+            <div class="carousel-slide-image-container">
+              <div class="carousel-slide-bg-glow"></div>
+              <img src="assets/carousel-pedal.png" alt="Pedales Shimano PD-A530" class="carousel-slide-img">
+            </div>
+            <h3 class="carousel-slide-title">Pedales Shimano</h3>
+            <span class="carousel-slide-subtitle">Más control</span>
+            <p class="carousel-slide-desc">Sentí una conexión firme con la bicicleta gracias a un sistema diseñado para maximizar el rendimiento.</p>
+          </div>
+
+        </div>
+      </div>
+      
+      <button class="carousel-btn" id="carousel-btn-next" aria-label="Siguiente slide">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" /></svg>
+      </button>
+    </div>
+    
+    <div class="carousel-indicators"></div>
+  </section>
+
+  <!-- Sección 4: Marquesina Deslizante (Marquee) -->
+  <section class="marquee-section">
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <span class="marquee-item">Confianza <span class="marquee-slash">/</span></span>
+        <span class="marquee-item">Resistencia <span class="marquee-slash">/</span></span>
+        <span class="marquee-item">Adrenalina <span class="marquee-slash">/</span></span>
+        <!-- Duplicamos contenido para efecto infinito -->
+        <span class="marquee-item">Confianza <span class="marquee-slash">/</span></span>
+        <span class="marquee-item">Resistencia <span class="marquee-slash">/</span></span>
+        <span class="marquee-item">Adrenalina <span class="marquee-slash">/</span></span>
+        <span class="marquee-item">Confianza <span class="marquee-slash">/</span></span>
+        <span class="marquee-item">Resistencia <span class="marquee-slash">/</span></span>
+        <span class="marquee-item">Adrenalina <span class="marquee-slash">/</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 8: Selector de Colores (Elegí tu estilo) -->
+  <section class="colors-section">
+    <div class="colors-card color-red reveal-scale">
+      <div class="colors-card-left">
+        <div class="colors-bike-display">
+          <div class="colors-bike-glow" id="color-glow-indicator"></div>
+          <img src="assets/color-bike-red.png" alt="Venzo Amphion Rojo" class="colors-bike-img active" id="color-bike-img-red">
+          <img src="assets/color-bike-gray.png" alt="Venzo Amphion Gris" class="colors-bike-img" id="color-bike-img-gray">
+          <img src="assets/color-bike-pink.png" alt="Venzo Amphion Rosa" class="colors-bike-img" id="color-bike-img-pink">
+          <img src="assets/color-bike-lime.png" alt="Venzo Amphion Verde Limón" class="colors-bike-img" id="color-bike-img-lime">
+        </div>
+      </div>
+      <div class="colors-card-right">
+        <span class="colors-overtitle">Disponible en cuatro colores</span>
+        <h2 class="colors-title">Elegí tu estilo</h2>
+        <p class="colors-desc">El mismo rendimiento, con el color que más te guste.</p>
+        
+        <div class="colors-selector">
+          <button class="color-dot active" data-color="red" style="background-color: #ff1a1a; color: #ff1a1a;" aria-label="Color Rojo" title="Rojo Corsa"></button>
+          <button class="color-dot" data-color="gray" style="background-color: #8c8c8c; color: #8c8c8c;" aria-label="Color Gris" title="Gris Grafito"></button>
+          <button class="color-dot" data-color="pink" style="background-color: #ff007f; color: #ff007f;" aria-label="Color Rosa" title="Rosa Fucsia"></button>
+          <button class="color-dot" data-color="lime" style="background-color: #ccff00; color: #ccff00;" aria-label="Color Verde Limón" title="Verde Limón"></button>
+        </div>
+        <div class="color-name-display" id="color-name-text">Rojo Corsa</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 9: Imagen Destacada (Landscape Cyclist) -->
+  <section class="landscape-section">
+    <div class="landscape-container reveal">
+      <h2 class="landscape-text">La compañera ideal para<br>descubrir nuevos horizontes.</h2>
+    </div>
+  </section>
+
+  <!-- Sección 9: FAQ Acordeón -->
+  <section id="faq" class="faq-section">
+    <div class="faq-container">
+      <div class="faq-header reveal">
+        <h2 class="faq-title">Lo que necesitás saber</h2>
+      </div>
+      
+      <div class="faq-list reveal">
+        
+        <!-- Pregunta 1 -->
+        <div class="faq-item">
+          <button class="faq-question-btn" aria-expanded="false">
+            <div class="faq-question-content">
+              <span class="faq-number">01</span>
+              <span class="faq-question-text">¿Qué tipo de garantía ofrece Venzo en la Amphion?</span>
+            </div>
+            <span class="faq-icon-wrapper">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Venzo ofrece una garantía escrita limitada sobre el cuadro de aluminio de la Amphion contra defectos de fabricación y fisuras por un período de 2 años, así como la garantía de fábrica sobre componentes individuales de transmisión y frenos.</p>
+          </div>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="faq-item">
+          <button class="faq-question-btn" aria-expanded="false">
+            <div class="faq-question-content">
+              <span class="faq-number">02</span>
+              <span class="faq-question-text">¿Cómo elijo el talle correcto de cuadro?</span>
+            </div>
+            <span class="faq-icon-wrapper">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Los talles recomendados para la Venzo Amphion rodado 29 se basan en tu estatura: Talle S (15" - 16") para alturas entre 1.60m y 1.70m, Talle M (17" - 18") para 1.70m a 1.80m, y Talle L (19" - 20") para alturas superiores a 1.80m.</p>
+          </div>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="faq-item">
+          <button class="faq-question-btn" aria-expanded="false">
+            <div class="faq-question-content">
+              <span class="faq-number">03</span>
+              <span class="faq-question-text">¿Qué tipo de mantenimiento requieren los frenos a disco hidráulicos?</span>
+            </div>
+            <span class="faq-icon-wrapper">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Se recomienda limpiar periódicamente los discos con alcohol isopropílico, revisar el espesor de las pastillas de freno cada 500 km y realizar una purga del sistema hidráulico con aceite mineral adecuado al menos una vez al año.</p>
+          </div>
+        </div>
+
+        <!-- Pregunta 4 -->
+        <div class="faq-item">
+          <button class="faq-question-btn" aria-expanded="false">
+            <div class="faq-question-content">
+              <span class="faq-number">04</span>
+              <span class="faq-question-text">¿Se puede personalizar la configuración de fábrica?</span>
+            </div>
+            <span class="faq-icon-wrapper">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>¡Sí! Al realizar tu reserva a través de nuestra red de distribuidores oficiales, podés seleccionar opciones personalizadas para el asiento, tipos de platos de transmisión o pedales de competición de plataforma para adaptar la bicicleta a tus senderos preferidos.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección 9: CTA Final & Footer -->
+  <section id="comprar" class="footer-cta-section">
+    <div class="cta-background-glow"></div>
+    <div class="cta-container reveal">
+      <h2 class="cta-title">Diseñada para ir más lejos</h2>
+      <p class="cta-subtitle">Llevá tu experiencia de pedaleo al siguiente nivel con la Venzo Amphion.</p>
+      <a href="mailto:info@venzoargentina.com.ar" class="btn-cta">Reservar ahora</a>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="footer-top">
+      <div class="footer-left-col">
+        <a href="#" class="footer-logo-container" aria-label="Volver al inicio">
+          <img src="assets/logovenzoblanco.png" alt="Venzo Racing Division Logo" class="footer-logo-img">
+        </a>
+        <nav class="footer-nav-left">
+          <a href="#introduccion" class="footer-link">Conocé más</a>
+          <a href="#tecnologia" class="footer-link">Tecnología Venzo</a>
+        </nav>
+      </div>
+
+      <div class="footer-links-col">
+        <nav class="footer-nav">
+          <a href="mailto:info@venzoargentina.com.ar" class="footer-link">Contactanos</a>
+        </nav>
+        <div class="footer-socials">
+          <a href="#" class="footer-social-icon" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="#" class="footer-social-icon" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <div class="footer-bottom">
+      <span class="footer-copy">2026 - Venzo</span>
+      <button class="footer-scroll-top" id="scroll-to-top-btn" aria-label="Volver arriba">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+      </button>
+    </div>
+  </footer>
+
+  <!-- JS Logic script -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
